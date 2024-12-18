@@ -1,12 +1,134 @@
-{
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-      "appServicePlanName": {
-        "value": "myAppServicePlan"
-      },
-      "webAppName": {
-        "value": "myMvcApp"
+[
+  {
+    "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-19aa1760-8d97/operations/FA9A9D5A3EA7E219",
+    "operationId": "FA9A9D5A3EA7E219",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-12-18T09:41:53.1657744Z",
+      "duration": "PT0.6499861S",
+      "trackingId": "d0cffc1b-ac35-49a3-8107-8040f87f8de1",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/sites/myapphackthon/basicPublishingCredentialsPolicies/ftp",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "myapphackthon/ftp"
       }
     }
+  },
+  {
+    "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-19aa1760-8d97/operations/197ED2DAA476694F",
+    "operationId": "197ED2DAA476694F",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-12-18T09:41:53.0473647Z",
+      "duration": "PT22.0862763S",
+      "trackingId": "7a4dc562-1876-4361-91da-0fc5f7af4535",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/sites/myapphackthon/basicPublishingCredentialsPolicies/scm",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "myapphackthon/scm"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-19aa1760-8d97/operations/DF3CDA7AF96EC8E4",
+    "operationId": "DF3CDA7AF96EC8E4",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-12-18T09:41:52.4814502Z",
+      "duration": "PT21.5203618S",
+      "trackingId": "246a02ad-afc1-4e3f-b9e0-c6ae40bf3189",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/sites/myapphackthon",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "myapphackthon"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-19aa1760-8d97/operations/B3D84214F207300B",
+    "operationId": "B3D84214F207300B",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-12-18T09:41:30.9198894Z",
+      "duration": "PT29.0316251S",
+      "trackingId": "fde378e2-8647-49d6-b259-760dfa27ab4c",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/microsoft.insights/components/myapphackthon",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "myapphackthon",
+        "apiVersion": "2015-05-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-19aa1760-8d97/operations/636C272028AFBD79",
+    "operationId": "636C272028AFBD79",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-12-18T09:41:30.7771413Z",
+      "duration": "PT28.888877S",
+      "trackingId": "6d3d1e1e-a359-4647-868e-b439bcd9ce00",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/microsoft.insights/components/myapphackthon",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "myapphackthon"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-19aa1760-8d97/operations/5A5AF68154F0B006",
+    "operationId": "5A5AF68154F0B006",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-12-18T09:41:09.286286Z",
+      "duration": "PT7.3980217S",
+      "trackingId": "4aa94152-f2d2-48b7-befb-591b67496453",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/serverfarms/ASP-GitHubCopilotChallenges-9a87",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ASP-GitHubCopilotChallenges-9a87"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-19aa1760-8d97/operations/1DEEB2E3343A1178",
+    "operationId": "1DEEB2E3343A1178",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-12-18T09:41:28.1498066Z",
+      "duration": "PT26.2615423S",
+      "trackingId": "47118793-9eb0-4e91-9ebd-a2e2f826dd62",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/DefaultResourceGroup-CCAN/providers/Microsoft.Resources/deployments/newWorkspaceTemplate",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "newWorkspaceTemplate"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f97c5f1c-df25-454a-ab8f-1a6e039501bd/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-19aa1760-8d97/operations/08584670920248620525",
+    "operationId": "08584670920248620525",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-12-18T09:41:53.2875699Z",
+      "duration": "PT0.078774S",
+      "trackingId": "227cab16-71e2-428e-b335-5197bfc1e63d",
+      "statusCode": "OK"
+    }
   }
+]
